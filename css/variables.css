@@ -1,0 +1,90 @@
+/* variables.css - Corporate CA Portfolio Color System */
+
+:root {
+    /* Brand Color Palette */
+    --alabaster-grey: #d8dbe2ff;
+    --powder-blue: #a9bcd0ff;
+    --pacific-blue: #58a4b0ff;
+    --charcoal-blue: #373f51ff;
+    --carbon-black: #1b1b1eff;
+    
+    /* Semantic Colors */
+    --primary-color: var(--pacific-blue);
+    --secondary-color: var(--powder-blue);
+    --accent-color: var(--charcoal-blue);
+    --dark-bg: var(--carbon-black);
+    --light-bg: var(--alabaster-grey);
+    
+    /* Text Colors */
+    --text-primary: var(--carbon-black);
+    --text-secondary: var(--charcoal-blue);
+    --text-light: var(--powder-blue);
+    --text-white: #ffffff;
+    
+    /* UI Colors */
+    --border-color: rgba(88, 164, 176, 0.2);
+    --shadow-color: rgba(27, 27, 30, 0.1);
+    --overlay-color: rgba(27, 27, 30, 0.7);
+    
+    /* Success/Error States */
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    
+    /* Typography Scale */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+    --font-size-lg: 18px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 32px;
+    --font-size-3xl: 48px;
+    --font-size-4xl: 64px;
+    
+    /* Font Weights */
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    
+    /* Spacing System */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 48px;
+    --spacing-2xl: 64px;
+    --spacing-3xl: 96px;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+    
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 300ms ease-in-out;
+    --transition-slow: 500ms ease-in-out;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    
+    /* Z-index Layers */
+    --z-preloader: 9999;
+    --z-modal: 1000;
+    --z-header: 100;
+    --z-dropdown: 50;
+    --z-base: 1;
+    
+    /* Container Widths */
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+    --container-2xl: 1440px;
+}
